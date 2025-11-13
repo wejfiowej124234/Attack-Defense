@@ -1,5 +1,21 @@
 # Attack & Defense 🛡️
-## Blockchain Wallet Security Encyclopedia
+
+> ⚔️ Comprehensive blockchain wallet security encyclopedia
+
+---
+
+## 🌐 Iron Blockchain Wallet Ecosystem
+
+| # | Project | Description | Repository |
+|---|---------|-------------|------------|
+| 1️⃣ | **IronCore** | 🎯 钱包后端 - Backend API Server | [→ Visit](https://github.com/wejfiowej124234/IronCore) |
+| 2️⃣ | **IronForge** | 🌐 前端钱包 - Web Wallet | [→ Visit](https://github.com/wejfiowej124234/IronForge) |
+| 3️⃣ | **IronLink-DApp** | 📱 移动端 - Mobile DApp Wallet | [→ Visit](https://github.com/wejfiowej124234/IronLink-DApp) |
+| 4️⃣ | **IronGuard-AI** | 🤖 AI安全 - AI Security Layer | [→ Visit](https://github.com/wejfiowej124234/ironguard-ai) |
+| 5️⃣ | **IronVault-XR** | 🥽 智能眼镜 - AR/VR Wallet | [→ Visit](https://github.com/wejfiowej124234/IronVault-XR) |
+| 6️⃣ | **Attack-Defense** | ⚔️ 攻防知识库 - Security Knowledge Base | 👉 **[You are here]** |
+
+---
 
 ## 📚 Overview
 
@@ -7,7 +23,7 @@ This is an **enterprise-grade, S-tier** blockchain wallet security documentation
 
 **Created**: November 11, 2025  
 **Last Updated**: November 12, 2025  
-**Project**: Rust Secure Wallet DApp  
+**Project**: Iron Blockchain Wallet Ecosystem  
 **Documentation**: 77 attack types + complete defense strategies  
 **Latest Updates**: 2024-2025 attack cases and AI-enhanced defenses added
 
@@ -41,8 +57,6 @@ Overall Rating:  ⭐⭐⭐⭐⭐ 99/100 (S-Tier)
 - XSS attacks: 4,127 vulnerabilities reported
 - SIM swap: 8,900+ cases (↑127% vs 2023)
 - SQL injection: 3,293 vulnerabilities
-
-📄 **See**: [UPDATES-2024-2025.md](./UPDATES-2024-2025.md) for complete details
 
 ---
 
@@ -189,16 +203,6 @@ Overall Rating:  ⭐⭐⭐⭐⭐ 99/100 (S-Tier)
 8. Flash Loan Attack ⭐⭐⭐⭐⭐
 9. Oracle Manipulation ⭐⭐⭐⭐⭐
 10. Integer Overflow ⭐⭐⭐⭐⭐
-11. Supply Chain Attack ⭐⭐⭐⭐
-12. API Key Leakage ⭐⭐⭐⭐
-13. Hardware Wallet Attack ⭐⭐⭐⭐
-14. Broken Access Control ⭐⭐⭐⭐
-15. App Reverse Engineering ⭐⭐⭐⭐
-16. MEV Attack ⭐⭐⭐⭐
-17. Double Spending ⭐⭐⭐⭐
-18. 51% Attack ⭐⭐⭐⭐
-19. Smart Contract Upgrade ⭐⭐⭐⭐
-20. Address Manipulation ⭐⭐⭐⭐
 
 ---
 
@@ -254,68 +258,15 @@ Reference documents to quickly identify attack type and response measures.
 
 ---
 
-## 📖 Recommended Reading Order
+## 🛡️ Iron Ecosystem Defense Implementation
 
-### 🔰 Beginners (5 Must-Reads)
-1. **Private Key Leakage** - Understand biggest threat
-2. **Phishing Signatures** - Learn to identify fraud
-3. XSS Attack - Web security basics
-4. SQL Injection - Backend security basics
-5. **Fake Customer Support** - Social engineering prevention
+The Iron Blockchain Wallet Ecosystem implements comprehensive defenses:
 
-### 💻 Frontend Developers (10 docs)
-XSS → CSRF → Clickjacking → Prototype Pollution → Local Storage Theft → Session Hijacking → MITM → DoS → Race Conditions → Information Disclosure
-
-### 🖥️ Backend Developers (10 docs)
-SQL Injection → Authentication Bypass → Privilege Escalation → API Rate Limiting → Command Injection → Brute Force → Timing Attacks → XXE → Deserialization → SSRF
-
-### 📱 Mobile Developers (13 docs)
-All mobile attack documents
-
-### ⛓️ Blockchain Developers (20 docs)
-All blockchain-specific attack documents
-
-### 🔐 Security Engineers (All 77)
-Systematic study of all attack types
-
----
-
-## 🛡️ Our Defense Implementation
-
-### Implemented Defenses
-✅ **Frontend Protection**:
-- XSS protection (output encoding, CSP)
-- Prototype pollution filtering
-- Error message whitelist
-- Race condition locks
-
-✅ **Cryptographic Protection**:
-- AES-256-GCM encryption
-- HMAC integrity verification
-- Cryptographically secure random
-- Constant-time comparison
-
-✅ **Mobile Protection**:
-- Hardware-encrypted storage (Keychain/Keystore)
-- Biometric protection
-- Triple encryption for private keys
-- Zero memory caching
-
-✅ **Authentication Protection**:
-- OWASP password policy
-- Token format validation
-- Input length limits
-- Brute-force prevention
-
-✅ **Blockchain Protection**:
-- Address format validation
-- Hardware-isolated private keys
-- BIP39 mnemonic standard
-
-✅ **AI-Enhanced Security (2025)**:
-- ML-based anomaly detection
-- Real-time threat intelligence
-- Automated response systems
+✅ **IronCore Backend**: API security, authentication, encryption
+✅ **IronForge Web**: XSS protection, CSP, secure storage  
+✅ **IronLink DApp**: Hardware security, biometric auth, app hardening  
+✅ **IronGuard-AI**: Real-time threat detection using DQN reinforcement learning  
+✅ **IronVault-XR**: Biometric auth, spatial security  
 
 **Defense Coverage**: 92% ✅  
 **Vulnerabilities Fixed**: 30+ ✅
@@ -324,8 +275,7 @@ Systematic study of all attack types
 
 ## 📚 Related Resources
 
-- **Complete Update Summary**: [UPDATES-2024-2025.md](./UPDATES-2024-2025.md)
-- **GitHub Repository**: [Rust-Secure-Wallet-DApp](https://github.com/DarkCrab-Rust/Rust-Secure-Wallet-DApp)
+- **IronGuard-AI**: [AI-powered security](https://github.com/wejfiowej124234/ironguard-ai)
 - **OWASP**: https://owasp.org
 - **CWE**: https://cwe.mitre.org
 - **Consensys Best Practices**: https://consensys.github.io/smart-contract-best-practices
@@ -345,7 +295,6 @@ Created with ❤️ for the blockchain security community
 **Version**: 2.0  
 **Last Updated**: November 12, 2025  
 **Total Documentation**: 77 attack types + comprehensive defense strategies  
-**Latest Addition**: 2024-2025 attack cases and AI-enhanced defenses
 
 ---
 
